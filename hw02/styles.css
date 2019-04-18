@@ -1,0 +1,190 @@
+body{
+  background-image: url(hardwood.jpg);
+  background-size: contain;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+body section p{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  color: #005B5F;
+  font-size: 40px;
+}
+
+
+nav {
+  border-style: outset;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-width: 10px;
+  border-color: #1CC1C9;
+  text-align: center;
+  background-color: #FFE6AA;
+  color: #005B5F;
+  font-size: 30px;
+}
+
+a {
+  color: #005B5F;
+  text-align: center;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.worksheader{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #1CC1C9;
+
+}
+.authorimage{
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-color: white;
+  border-style: inset;
+  border-width: 20px;
+}
+
+.authorname{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+.card{
+  border-style: solid;
+  border-radius: .5em;
+  border-color: #005B5F;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-width: 5px;
+  display: inline-table;
+  float: left;
+  margin: 1em;
+  text-align: center;
+  background-color: #FFE6AA;
+  color: #005B5F;
+  font-size: 20px;
+}
+
+.workscard{
+  border-style: ridge;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-width: 20px;
+  display: inline-table;
+  float: left;
+  text-align: center;
+  background-color: #FFE6AA;
+  color: #1CC1C9;
+  font-size: 20px;
+}
+
+.notableworks{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: silver;
+  border-color: white;
+  border-style: inset;
+  border-width: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 60px;
+  color: silver;
+}
+
+.authorby{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
+  color: silver
+}
+
+.authorby a{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
+  color: silver
+}
+
+
+.storybody{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  color: #002021;
+  font-size: 20px;
+}
+
+.storyblock{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #1CC1C9;
+  background-color: #FFE6AA;
+}
+
+.storyimage {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-color: white;
+  border-style: inset;
+  border-width: 20px;
+}
+
+.landingdescription{
+font-family: 'Abril Fatface', cursive;
+color: silver;
+text-align: center;
+font-size: 20px;
+}
+
+.storycard{
+  border-style: ridge;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-width: 20px;
+  display: inline-table;
+  margin-top: auto;
+  text-align: center;
+  background-color: #FFE6AA;
+  color: #005B5F;
+  font-size: 40px;
+  margin-left: 10em;
+  margin-right:10em;
+  margin-bottom: 3em;
+}
+
+.authorbio{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  color: silver;
+  font-size: 40px;
+}
