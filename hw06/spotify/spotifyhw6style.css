@@ -1,0 +1,87 @@
+.photo{
+  object-fit: contain;
+  height: 300px;
+  width: 300px;
+  border: solid 1px #000;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  border: solid 1px #000;
+  line-height: 1em;
+  margin: 3em;
+  display: inline-block;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  background-color:#121212;
+}
+
+body{
+  background-color: #212121;
+  background-size: contain;
+}
+
+button {
+    padding: 5px 15px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    background: #1db954;
+    border-radius: 3px;
+    border-color: transparent;
+	color: #fff;
+  font-family: 'Signika', sans-serif;
+}
+
+input, button {
+  font-size: 1.2em;
+  color: white;
+}
+input {
+  width: 400px;
+  padding: 5px 5px;
+  transition: all 0.30s ease-in-out;
+	outline: none;
+	background: #b3b3b3;
+	border: 1px solid #ccc;
+  display: inline-block;
+  margin: auto;
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+input:focus {
+    box-shadow: 0 0 5px #1db954;;
+	border: 1px solid #1db954;
+}
+
+h1{
+  color: #1db954;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px #1db954;
+}
+
+.logo{
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+  display: inline;
+}
+
+
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 20px 20px 20px 20px green;
+-moz-box-shadow: 20px 20px 20px 20px green;
+border-radius: 30px;
+box-shadow: 15px 15px 20px green;
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
