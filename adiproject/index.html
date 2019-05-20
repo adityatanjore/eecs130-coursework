@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aditya Tanjore</title>
+  <style>body { padding: 1rem 5% !important; } </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link rel='stylesheet' href='https://unpkg.com/carbon-components@latest/css/carbon-components.css'>
+    <link rel='stylesheet' href='aditya.css'>
+
+
+
+</head>
+
+<body>
+
+  <nav data-content-switcher class="bx--content-switcher" role="tablist" aria-label="Demo switch content">
+	<button class="bx--content-switcher-btn bx--content-switcher--selected" data-target=".demo--panel--opt-1" role="tab" aria-selected="true" id="section1">
+        <span>Welcome and Bio</span>
+  </button>
+	<button class="bx--content-switcher-btn" data-target=".demo--panel--opt-2" role="tab" id="section2">
+        <span>Ask Aditya</span>
+  </button>
+	<button class="bx--content-switcher-btn" data-target=".demo--panel--opt-3" role="tab" id="section3">
+        <span>Thoughts</span>
+  </button>
+  <button class="bx--content-switcher-btn" data-target=".demo--panel--opt-4" role="tab" id="section4">
+        <span>My Work</span>
+  </button>
+  </nav>
+
+  <div class="content">
+    <h2 class="welcometext">Welcome!</h2>
+    <p class = introtext>
+        My name is Aditya Tanjore, and I study economics, political science,
+        and business institutions at Northwestern University. My interests lie
+        in the investigation of  interstate conflicts around the globe and understanding the
+        economics linked to the emergence of right-wing populist sentiments, as well as in leadership
+        development in business and beyond. Please feel free to read through my bio, peruse through my work and thoughts,
+        or ask me a question!
+    </p>
+
+
+    <ul data-accordion class="bx--accordion">
+    	<li data-accordion-item class="bx--accordion__item">
+    		<button class="bx--accordion__heading" aria-expanded="false" aria-controls="pane1">
+              <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8l-5 5-.7-.7L9.6 8 5.3 3.7 6 3z"></path></svg>
+            <div class="bx--accordion__title">My Background</div>
+          </button>
+    		<div id="pane1" class="bx--accordion__content">
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		</div>
+    	</li>
+    	<li data-accordion-item class="bx--accordion__item">
+    		<button class="bx--accordion__heading" aria-expanded="false" aria-controls="pane2">
+              <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8l-5 5-.7-.7L9.6 8 5.3 3.7 6 3z"></path></svg>
+            <div class="bx--accordion__title">My Interests</div>
+          </button>
+    		<div id="pane2" class="bx--accordion__content">
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		</div>
+    	</li>
+    	<li data-accordion-item class="bx--accordion__item">
+    		<button class="bx--accordion__heading" aria-expanded="false" aria-controls="pane3">
+              <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8l-5 5-.7-.7L9.6 8 5.3 3.7 6 3z"></path></svg>
+            <div class="bx--accordion__title">My Goals</div>
+          </button>
+    		<div id="pane3" class="bx--accordion__content">
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		</div>
+    	</li>
+    	<li data-accordion-item class="bx--accordion__item">
+    		<button class="bx--accordion__heading" aria-expanded="false" aria-controls="pane4">
+              <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8l-5 5-.7-.7L9.6 8 5.3 3.7 6 3z"></path></svg>
+            <div class="bx--accordion__title">Contact</div>
+          </button>
+    		<div id="pane4" class="bx--accordion__content">
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		</div>
+    	</li>
+    </ul>
+
+
+
+
+
+  <!-- <script src='https://unpkg.com/carbon-components@10.0.0/scripts/carbon-components.min.js'></script> -->
+  <script src='index.js'></script>
+
+
+</body>
+
+</html>
