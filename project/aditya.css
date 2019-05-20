@@ -1,0 +1,75 @@
+#myform {
+    margin-top: 100px;
+}
+
+.content{
+  margin-top: 100px;
+}
+
+.introtext{
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.welcometext{
+  font-size: 50px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.bioaccordion{
+
+  margin-top: 4em;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.bx--accordion {
+margin-top: 4em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordionpanel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.thoughts {
+  margin-top: 4em;
+  font-size: 40px;
+  margin-bottom: 1em;
+
+}
+
+.thoughttext {
+  margin-bottom: 4em;
+}
+
+#questionrequest{
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.questionclassifcation {
+  margin-top: 3em;
+}
+
+.constructionmessage {
+  font-size: 60px;
+  text-align: center;
+}
+
+.checkbackmessage {
+  text-align: center;
+  margin-top: 1em;
+}
