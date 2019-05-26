@@ -1,0 +1,189 @@
+#myform {
+    margin-top: 100px;
+}
+
+body{
+  background-color: #f4e9cd;
+  background-size: contain;
+}
+
+.content{
+  margin-top: 100px;
+  color: #031926;
+}
+
+.introtext{
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.welcometext{
+  font-size: 50px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.bioaccordion{
+
+  margin-top: 4em;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.bx--accordion {
+margin-top: 4em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordionpanel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.thoughts {
+  margin-top: 4em;
+  font-size: 40px;
+  margin-bottom: 1em;
+
+}
+
+.thoughttext {
+  margin-bottom: 4em;
+  font-size: 20px;
+  color: gray;
+}
+
+#questionrequest{
+  font-size: 40px;
+  margin-bottom: 1em;
+  color: #031926;
+}
+
+.questionclassifcation {
+  margin-top: 3em;
+}
+
+.constructionmessage {
+  font-size: 60px;
+  text-align: center;
+}
+
+.checkbackmessage {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.bx--content-switcher-btn{
+  background-color: #9dbebb;
+  color: #031926;
+  z-index: 3;
+}
+
+.bx--content-switcher-btn:hover, .bx--content-switcher-btn:active {
+  background-color: #77ACA2;
+  color: #031926;
+  z-index: 3;
+}
+
+.bx--content-switcher-btn.bx--content-switcher--selected {
+  background-color: #468189;
+  color: #031926;
+  z-index: 3;
+}
+
+.bx--accordion__heading:hover:before {
+  background-color: #9dbebb;
+}
+
+.bx--btn.bx--btn--primary{
+  background-color: #031926;
+}
+
+.hiddenDiv {
+  display: none;
+}
+
+.bx--dropdown__wrapper{
+  margin-top: 4em;
+}
+
+.results {
+  margin-top: 4em;
+}
+
+.cardcategory{
+  margin-top: 1em;
+}
+
+.cardquestion{
+  margin-top: 1em;
+}
+
+.card{
+  border-width: medium;
+  border-style: solid;
+  border-color: #468189;
+  margin-top: 1em;
+}
+
+.postsheader{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.panepara1 {
+  margin-top: 1em;
+}
+
+.panepara2 {
+  margin-top: 1em;
+}
+
+.panepara3 {
+  margin-top: 1em;
+}
+
+.panepara4 {
+  margin-top: 1em;
+}
+
+
+.bx--accordion__content {
+  text-align: justify;
+}
+
+.adipic{
+  display: grid;
+  margin-right: 800px;
+  border-style: groove;
+  border-color: #031926;
+  border-width: 0.2em;
+  border-radius: 300px;
+  height: 200px;
+
+}
+
+.interestlist{
+  list-style: circle;
+}
+
+#interest{
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.contactlogo{
+  height: 50px;
+  width: 50px;
+}
