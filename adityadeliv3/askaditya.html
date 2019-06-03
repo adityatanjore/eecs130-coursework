@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aditya Tanjore</title>
+  <style>body { padding: 1rem 5% !important; } </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link rel='stylesheet' href='https://unpkg.com/carbon-components@latest/css/carbon-components.css'>
+    <link rel='stylesheet' href='aditya.css'>
+
+
+
+</head>
+
+<body>
+
+  <nav data-content-switcher class="bx--content-switcher" role="tablist" aria-label="Demo switch content">
+  <button class="bx--content-switcher-btn bx--content-switcher--selected" data-target=".demo--panel--opt-1" role="tab" aria-selected="true" id="section1">
+        <span>Welcome and Bio</span>
+  </button>
+	<button class="bx--content-switcher-btn" data-target=".demo--panel--opt-2" role="tab" id="section2">
+        <span>Ask Aditya</span>
+  </button>
+	<button class="bx--content-switcher-btn" data-target=".demo--panel--opt-3" role="tab" id="section3">
+        <span>Thoughts</span>
+  </button>
+  <button class="bx--content-switcher-btn" data-target=".demo--panel--opt-4" role="tab" id="section4">
+        <span>My Work</span>
+  </button>
+  </nav>
+
+  <div class="content">
+
+    <div id = "postedquestions">
+    </div>
+
+
+    <div class="bx--form-item">
+      <label for="text-area-2" class="bx--label" id = "questionrequest">Please ask me a question!</label>
+      <div class="bx--form__helper-text">
+        500 character count maximum
+      </div>
+
+      <textarea id="question-text-area" class="bx--text-area" rows="4" cols="50" placeholder="Ask away! "></textarea>
+
+    </div>
+    <div class="bx--form-item">
+      <div class="bx--select">
+        <label for="select-id" class="questionclassifcation">Question Classification: what cateogry does your question fall under?</label>
+        <div class="bx--select-input__wrapper">
+          <select id="select-id" class="bx--select-input ">
+
+            <option class="bx--select-option" value=""  disabled selected hidden> Choose an option </option>
+            <option class="bx--select-option" value="solong" >Consulting / Recruitment Experience </option>
+              <option class="bx--select-option" value="option1" >Addressing Northwestern Business Culture </option>           <option class="bx--select-option" value="option2" >Adi's general "Northwestern Journey" </option>  </optgroup>
+              <option class="bx--select-option" value="option1" >Global Politics and Political Development</option>           <option class="bx--select-option" value="option2" >Other</option>  </optgroup>   </select>
+          <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--select__arrow" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M5 6L0 1 .7.3 5 4.6 9.3.3l.7.7z"></path></svg>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+          <div class="bx--form-item">
+            <div class="bx--dropdown__wrapper ">
+              <label for="dropdown-id-longer-helper-text" class="bx--label">Dropdown label</label>
+              <div class="bx--form__helper-text">Optional helper text here; if message is more than one line text
+                should wrap (~100 character count maximum)</div>
+              <ul data-dropdown data-value id="dropdown-id-longer-helper-text"
+                class="bx--dropdown   "
+                tabindex="0">
+                <li class="bx--dropdown-text">
+                   Dropdown option       </li>
+                <li class="bx--dropdown__arrow-container">
+                  <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--dropdown__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 11L3 6l.7-.7L8 9.6l4.3-4.3.7.7z"></path></svg>
+                </li>
+                <li>
+                  <ul class="bx--dropdown-list">
+                    <li data-option data-value="all" class="bx--dropdown-item">
+                      <a class="bx--dropdown-link" href="javascript:void(0)" tabindex="-1">Option 1</a>
+                    </li>
+                    <li data-option data-value="cloudFoundry" class="bx--dropdown-item">
+                      <a class="bx--dropdown-link" href="javascript:void(0)" tabindex="-1">Option 2</a>
+                    </li>
+                    <li data-option data-value="staging" class="bx--dropdown-item">
+                      <a class="bx--dropdown-link" href="javascript:void(0)" tabindex="-1">Option 3</a>
+                    </li>
+                    <li data-option data-value="dea" class="bx--dropdown-item">
+                      <a class="bx--dropdown-link" href="javascript:void(0)" tabindex="-1">Option 4</a>
+                    </li>
+                    <li data-option data-value="router" class="bx--dropdown-item">
+                      <a class="bx--dropdown-link" href="javascript:void(0)" tabindex="-1">Option 5</a>
+                    </li>
+                    <li data-option data-value="loremipsum" class="bx--dropdown-item">
+                      <a class="bx--dropdown-link" href="javascript:void(0)" tabindex="-1">An example option that is really long to show what should be done to handle long text</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+    <div class="bx--form-item">
+      <button class="bx--btn bx--btn--primary" type="button"  id = "submit" >Submit</button>
+    </div>
+
+
+    <script src="index.js"></script>
+
+    </div>
