@@ -1,0 +1,471 @@
+@media (min-width: 1200px) {
+  .container1 {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas:
+     "workcard1 workcard2"
+     "workcard3 workcard4";
+     min-height: 100vh;
+   }
+   #introtext{
+     font-size: 30px;
+     text-align: center;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 2em;
+     position: relative;
+     left: -2000px;
+     width: 1000px;
+     -webkit-animation: slide 0.5s forwards;
+     -webkit-animation-delay: 2s;
+     animation: slide 0.5s forwards;
+     animation-delay: 1s;
+   }
+
+   @-webkit-keyframes slide {
+       100% { left: 0; }
+   }
+
+   @keyframes slide {
+       100% { left: 0; }
+   }
+
+
+   #questiondescrip {
+     position: relative;
+     left: -2000px;
+     width: 1000px;
+     -webkit-animation: slide 0.5s forwards;
+     -webkit-animation-delay: 2s;
+     animation: slide 0.5s forwards;
+     animation-delay: 0.5s;
+   }
+
+   #formQuestion {
+     position: relative;
+     left: -2000px;
+     width: 1000px;
+     -webkit-animation: slide 0.5s forwards;
+     -webkit-animation-delay: 2s;
+     animation: slide 0.5s forwards;
+     animation-delay: 1s;
+   }
+
+   #questionrequest{
+     font-size: 40px;
+     margin-bottom: 1em;
+     color: #031926;
+     position: relative;
+     left: -2000px;
+     width: 1000px;
+     -webkit-animation: slide 0.5s forwards;
+     -webkit-animation-delay: 2s;
+     animation: slide 0.5s forwards;
+     animation-delay: 0.2s;
+   }
+}
+
+@media (max-width: 1199px) {
+  .container1 {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     grid-template-areas:
+     "workcard1"
+     "workcard2"
+     "workcard3"
+     "workcard4";
+     min-height: 100vh;
+   }
+
+   #questionrequest{
+     font-size: 20px;
+     margin-bottom: 1em;
+     color: #031926;
+   }
+}
+
+
+
+#myform {
+    margin-top: 100px;
+}
+
+body{
+  background-color: #f4e9cd;
+  background-size: contain;
+}
+
+.content{
+  margin-top: 100px;
+  color: #031926;
+}
+
+.topbiocontent{
+  grid-area: topbiocontent;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+}
+
+.introtext{
+  grid-area: introtext;
+  font-size: 30px;
+  text-align: center;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+}
+
+#bioaccordion{
+  margin-top: 4em;
+}
+
+.welcometext {
+	text-align: center;
+	font-size:50pt;
+	background: linear-gradient(110deg, #468189 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #1B1537 34%);
+	background-size: 400%;
+	 -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.welcometext{
+		animation: Gradient 5s ease infinite;
+		-webkit-animation: Gradient 15s ease infinite;
+		-moz-animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 30% 50%
+	}
+	50% {
+		background-position: 25% 50%
+	}
+	100% {
+		background-position: 30% 50%
+	}
+}
+
+
+.hellotext{
+  font-size: 50px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.bioaccordion{
+
+  margin-top: 4em;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.bx--accordion {
+margin-top: 4em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordionpanel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.thoughts {
+  margin-top: 2em;
+  font-size: 40px;
+  margin-bottom: 1em;
+
+}
+
+.thoughttext {
+  margin-bottom: 4em;
+  font-size: 20px;
+  color: gray;
+}
+
+
+.questionclassifcation {
+  margin-top: 3em;
+}
+
+.constructionmessage {
+  font-size: 60px;
+  text-align: center;
+}
+
+.checkbackmessage {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.bx--content-switcher-btn{
+  background-color: #9dbebb;
+  color: #031926;
+  z-index: 3;
+}
+
+.bx--content-switcher-btn:hover, .bx--content-switcher-btn:active {
+  background-color: #77ACA2;
+  color: #031926;
+  z-index: 3;
+}
+
+.bx--content-switcher-btn.bx--content-switcher--selected {
+  background-color: #468189;
+  color: #031926;
+  z-index: 3;
+}
+
+.bx--accordion__heading:hover:before {
+  background-color: #9dbebb;
+}
+
+.bx--btn.bx--btn--primary{
+  background-color: #031926;
+}
+
+.hiddenDiv {
+  display: none;
+}
+
+.bx--dropdown__wrapper{
+  margin-top: 4em;
+}
+
+.results {
+  margin-top: 4em;
+}
+
+.cardcategory{
+  margin-top: 1em;
+}
+
+.cardquestion{
+  margin-top: 1em;
+}
+
+.card{
+  border-width: medium;
+  border-style: solid;
+  border-color: #468189;
+  margin-top: 1em;
+}
+
+.postsheader{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.panepara1 {
+  margin-top: 1em;
+}
+
+.panepara2 {
+  margin-top: 1em;
+}
+
+.panepara3 {
+  margin-top: 1em;
+}
+
+.panepara4 {
+  margin-top: 1em;
+}
+
+
+.bx--accordion__content {
+  text-align: justify;
+}
+
+.adipic{
+  display: grid;
+  margin-right: 800px;
+  border-style: groove;
+  border-color: #031926;
+  border-width: thick;
+  border-radius: 300px;
+  height: 200px;
+
+}
+
+.interestlist{
+  list-style: circle;
+}
+
+#interest{
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.contactlogo{
+  height: 50px;
+  width: 50px;
+}
+
+.workcard1{
+  grid-area: workcard1;
+  opacity: 0.5;
+  border-style: solid;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #005B5F;
+  text-align: center;
+  background-color: tan;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.workcard2{
+  grid-area: workcard2;
+  opacity: 0.5;
+  border-style: solid;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #005B5F;
+  text-align: center;
+  background-color: tan;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.workcard3{
+  grid-area: workcard3;
+  opacity: 0.5;
+  border-style: solid;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #005B5F;
+  text-align: center;
+  background-color: tan;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.workcard4{
+  grid-area: workcard4;
+  opacity: 0.5;
+  border-style: solid;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #005B5F;
+  text-align: center;
+  background-color: tan;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.workcard5{
+  grid-area: workcard5;
+  border-style: solid;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #005B5F;
+  text-align: center;
+  background-color: tan;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.workcard6{
+  grid-area: workcard6;
+  border-style: solid;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #005B5F;
+  text-align: center;
+  background-color: tan;
+  height: 0.5fr;
+  padding: inherit;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.cardflag{
+  margin: 1em 1em 1em 1em;
+  border-style: groove;
+  border-radius: .5em;
+  border-width: 5px;
+  border-color: #00215A;
+}
+
+.workcard1:hover, .workcard1:focus, .workcard1:active
+{
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+opacity: 1;
+}
+
+.workcard2:hover, .workcard2:focus, .workcard2:active
+{
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+opacity: 1;
+}
+
+.workcard3:hover, .workcard3:focus, .workcard3:active
+{
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+opacity: 1;
+}
+
+.workcard4:hover, .workcard4:focus, .workcard4:active
+{
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+opacity: 1;
+}
+
+
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #005B5F;
+}
+
+.formUpvote{
+background-color: #005B5F;
+border-width: 1px;
+border-style: solid;
+border-color: transparent;
+color: #ffffff;
+margin-right: 2em;
+}
+
+.cardquestion{
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.cardcategory{
+  font-size: 20px;
+}
